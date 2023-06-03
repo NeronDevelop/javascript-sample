@@ -57,7 +57,6 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/he
     } else {
         ylabel.push(element['variable'])
     }})
-  debugger;
 
   // 横軸を作成する
   var x = d3.scaleBand()
